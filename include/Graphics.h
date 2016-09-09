@@ -1,9 +1,3 @@
-/*
- * Graphics.h
- *
- *  Created on: 27 ao�t 2016
- *      Author: cleme
- */
 
 #ifndef SRC_INCLUDE_GRAPHICS_H_
 #define SRC_INCLUDE_GRAPHICS_H_
@@ -23,4 +17,4 @@ char WaitForKeyPress();
 
 void Run(int cyclesPerSeconds);
 
-#endif /* SRC_INCLUDE_GRAPHICS_H_ */
+#endif

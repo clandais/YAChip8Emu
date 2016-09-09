@@ -1,9 +1,4 @@
-/*
- * main.c
- *
- *  Created on: 26 ao�t 2016
- *      Author: cleme
- */
+
 #include "Chip8.h"
 
 #include <string.h>

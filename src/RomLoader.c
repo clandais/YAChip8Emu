@@ -1,10 +1,3 @@
-/*
- * RomLoader.c
- *
- *  Created on: 27 ao�t 2016
- *      Author: cleme
- */
-
 
 #include <stdlib.h>
 #include <stdio.h>

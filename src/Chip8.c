@@ -1,10 +1,3 @@
-/*
- * Chip8.c
- *
- *  Created on: 27 ao�t 2016
- *      Author: cleme
- */
-
 
 #include "Chip8.h"
 

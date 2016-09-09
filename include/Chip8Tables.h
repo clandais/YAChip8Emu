@@ -1,9 +1,3 @@
-/*
- * Chip8Tables.h
- *
- *  Created on: 27 août 2016
- *      Author: cleme
- */
 
 #ifndef SRC_INCLUDE_CHIP8TABLES_H_
 #define SRC_INCLUDE_CHIP8TABLES_H_
@@ -61,6 +55,7 @@ void OpcodeFX18(void);
 void OpcodeFX1E(void);
 void OpcodeFX29(void);
 void OpcodeFX33(void);
+
 /*
  * FX15, FX55, FX65
  */
@@ -107,4 +102,4 @@ void(*Chip8F[16])(void) =
 	CpuNull
 };
 
-#endif /* SRC_INCLUDE_CHIP8TABLES_H_ */
+#endif

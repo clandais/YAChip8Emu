@@ -1,9 +1,3 @@
-/*
- * Chip8.c
- *
- *  Created on: 27 août 2016
- *      Author: cleme
- */
 
 #ifndef SRC_INCLUDE_CHIP8_C_
 #define SRC_INCLUDE_CHIP8_C_
@@ -28,4 +22,4 @@ void ChipEnd();
 void Chip8UpdateTimers(void);
 
 
-#endif /* SRC_INCLUDE_CHIP8_C_ */
+#endif

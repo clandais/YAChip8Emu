@@ -1,7 +1,6 @@
 
-#go 64 bits????
 CC=gcc
-CFLAGS=-Wall -c
+CFLAGS=-Wall -Wextra -c
 LDFLAGS=-lmingw32 -lSDL2main -lSDL2
 
 

@@ -76,70 +76,6 @@ unsigned char GetKeyDown(void)
 	return keyDown;
 }
 
-void SetKeyDown( /*ALLEGRO_EVENT ev */)
-{
-	/*
-	switch (ev.keyboard.keycode)
-	{
-
-	case ALLEGRO_KEY_1:
-		keyDown = 0x1;
-		break;
-	case ALLEGRO_KEY_2:
-		keyDown = 0x2;
-		break;
-	case ALLEGRO_KEY_3:
-		keyDown = 0x3;
-		break;
-	case ALLEGRO_KEY_4:
-		keyDown = 0xC;
-		break;
-	case ALLEGRO_KEY_A:
-		keyDown = 0x4;
-		break;
-	case ALLEGRO_KEY_Z:
-		keyDown = 0x5;
-		break;
-	case ALLEGRO_KEY_E:
-		keyDown = 0x6;
-		break;
-	case ALLEGRO_KEY_R:
-		keyDown = 0xD;
-		break;
-	case ALLEGRO_KEY_Q:
-		keyDown = 0x7;
-		break;
-	case ALLEGRO_KEY_S:
-		keyDown = 0x8;
-		break;
-	case ALLEGRO_KEY_D:
-		keyDown = 0x9;
-		break;
-	case ALLEGRO_KEY_F:
-		keyDown = 0xE;
-		break;
-	case ALLEGRO_KEY_W:
-		keyDown = 0xA;
-		break;
-	case ALLEGRO_KEY_X:
-		keyDown = 0x0;
-		break;
-	case ALLEGRO_KEY_C:
-		keyDown = 0xB;
-		break;
-	case ALLEGRO_KEY_V:
-		keyDown = 0xF;
-		break;
-
-	default:
-		keyDown = 0xFF;
-		break;
-	}
-	*/
-}
-
-
-
 void Run(int cyclesPerSeconds)
 {
 
@@ -215,10 +151,7 @@ void DrawGfx()
 {
 	unsigned char* gfx = GetGfx();
 	int x, y;
-/*
-    SDL_SetRenderDrawColor( renderer, 0, 0, 0, SDL_ALPHA_OPAQUE );
-    SDL_RenderClear( renderer );
-*/
+
 	for (x = 0; x < 64; x++)
 		for (y = 0; y < 32; y++)
 		{
